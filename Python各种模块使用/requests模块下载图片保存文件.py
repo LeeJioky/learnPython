@@ -1,6 +1,6 @@
 import requests
 
-url = 'http://upload-images.jianshu.io/upload_images/5831032-3e4d3f9ad5a61b78.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1080/q/50'
+url = 'https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applecare/ergo-head-neck.png'
 r = requests.get(url)
 with open('chun.jpg', 'wb') as fo:
     fo.write(r.content)

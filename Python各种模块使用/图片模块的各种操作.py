@@ -14,7 +14,7 @@ import numpy as np
 '''二.图像通道几何变换裁剪'''
 
 # img = Image.open('img/3.jpg')
-# img的属性信息
+# # img的属性信息
 # print(img.size)
 # print(img.mode)
 # print(img.format)
@@ -42,7 +42,7 @@ import numpy as np
 · F (32-bit floating point pixels)
 '''
 # 通道分离与合并
-
+#
 # img = Image.open('img/3.jpg')
 # gray = img.convert('L') #转换成灰度
 # r,g,b = img.split()     #分离三通道
@@ -68,7 +68,7 @@ import numpy as np
 # plt.subplot(1,2,1),plt.title('origin')
 # plt.imshow(img),plt.axis('off')
 #
-# box=(180,100,400,300)
+# box=(180,100,500,300)
 # plt.subplot(1,2,2),plt.title('after')
 # plt.imshow(img.crop(box)),plt.axis('off')
 # plt.show()
